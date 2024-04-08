@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>VALA BLEU</title>
+</head>
+
+<body>
+
+  <div class="main">
+    <div class="navbar">
+      <div class="icone">
+        <h2 class="logo">Vala bleu</h2>
+      </div>
+
+      <div class="menu">
+        <div class="first-part">
+          <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">SERVICE</a></li>
+            <li><a href="#">DESIGN</a></li>
+            <li><a href="#">CONTACT</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="search">
+        <input class="srch" type="search" name="" placeholder="Type To text">
+        <a href="#"> <button class="btn">Search</button></a>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <div class="slider">
+    <!-- fade css -->
+    <div class="myslide fade">
+      <div class="txt1">
+        <h2>Conference on </h2><br>
+        <h2>Socail Networks</h2><br>
+        <div class="ligne-blanc-moyen"></div>
+        <span>23 - 26 MAY 2019 / Agadir / 8 SPEAKERS</span><br><br>
+        <a href="#"><button>REGISTRE ONLINE</button></a>
+      </div>
+      <img class="imges" src="imgs/img1.jpg" style="width: 100%; height: 100%;">
+    </div>
+
+    <div class="myslide fade">
+      <div class="txt">
+        <h2>IMAGE 2</h2>
+        <p>Web Devoloper<br>Conference on Socail Networks</p>
+      </div>
+      <img class="imges" src="imgs/img2.jpg" style="width: 100%; height: 100%;">
+    </div>
+    <div class="myslide fade">
+      <div class="txt2">
+        <h2>SUPPORT VIDEO BACKGROUND</h2><br>
+        <div class="ligne-blanc-moyen2"></div>
+      </div>
+      <video class="video-transparent" autoplay loop muted>
+        <source src="vds/pexels-artem-podrez-5726497 (2160p).mp4" type="video/mp4">
+        Votre navigateur ne supporte pas la lecture de vidéos au format MP4.
+      </video>
+    </div>
+
+
+    <!-- /fade css -->
+
+    <!-- onclick js -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="dotsbox" style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+
+    </div>
+    <!-- /onclick js -->
+  </div>
+
+
+
+
+  <section>
+    <div class="container">
+      <div>
+        <h1>À PROPOS DE VALA BLEU</h1>
+        <p>VALA BLEU est une entreprise leader dans le domaine de l'hébergement web et de l'enregistrement de noms de
+          domaine. Nous nous engageons à simplifier la présence en ligne des entreprises, en offrant des solutions
+          économiques et techniquement avancées.</p>
+        <a href="#">En savoir plus</a>
+      </div>
+      <div>
+        <h1>NOTRE MISSION</h1>
+        <p>Notre mission principale est de fournir des services d'hébergement web de qualité, de garantir la sécurité
+          des données de nos clients et de les soutenir avec des conseils et une assistance en ligne. Nous concevons des
+          solutions sur mesure pour répondre à leurs besoins spécifiques.</p>
+        <a href="#">En savoir plus</a>
+      </div>
+      <div>
+        <h1>POURQUOI CHOISIR VALA BLEU ?</h1>
+        <p>Choisissez VALA BLEU pour son expérience éprouvée, son expertise technique et son engagement envers la
+          satisfaction client. Nous sommes déterminés à transformer votre vision en une réalité web de haute qualité, en
+          respectant les normes les plus strictes.</p>
+        <a href="#">En savoir plus</a>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <section>
+    <div class="bgi1">
+      <div class="countdown">
+        <div class="box">
+          <span class="num" id="day-box">00</span>
+          <span class="text">Days</span>
+        </div>
+        <div class="box">
+          <span class="num" id="hr-box">00</span>
+          <span class="text">Hours</span>
+        </div>
+        <div class="box">
+          <span class="num" id="min-box">00</span>
+          <span class="text">Minutes</span>
+        </div>
+        <div class="box">
+          <span class="num" id="sec-box">00</span>
+          <span class="text">Seconds</span>
+        </div>
+
+      </div>
+      <div class="sub">
+        <span class="tit1">SUBSCRIBE FOR UPDATES</span><br>
+        <input type="search" name="" placeholder="Please fill your email">
+        <a href="#"> <button class="btn2">Subscribe</button></a>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <section class="sectionslid2">
+    <div class="wrapper">
+      <i id="left" class="fa-solid fa-angle-left"></i>
+      <ul class="carousel">
+        <li class="card">
+          <div class="img"><img src="imgs/photo1.jpg" alt="img" draggable="false"></div>
+          <h2>Abdeslam Gounaich</h2>
+          <span>Stagiaire</span>
+        </li>
+        <li class="card">
+          <div class="img"><img src="imgs/photo2.png" alt="img" draggable="false"></div>
+          <h2>Lamia Hdraf</h2>
+          <span>Web Developer</span>
+        </li>
+        <li class="card">
+          <div class="img"><img src="imgs/photo3.png" alt="img" draggable="false"></div>
+          <h2>Mohammed Chawch</h2>
+          <span>Online Teacher</span>
+        </li>
+        <li class="card">
+          <div class="img"><img src="imgs/photo4.png" alt="img" draggable="false"></div>
+          <h2>Abdlhamid Ben Drif</h2>
+          <span>Freelancer</span>
+        </li>
+        <li class="card">
+          <div class="img"><img src="imgs/photo5.png" alt="img" draggable="false"></div>
+          <h2>Ali Mensouri</h2>
+          <span>Bank Manager</span>
+        </li>
+        <li class="card">
+          <div class="img"><img src="imgs/photo6.png" alt="img" draggable="false"></div>
+          <h2>Monani Aazi</h2>
+          <span>App Designer</span>
+        </li>
+        <li class="card">
+          <div class="img"><img src="imgs/photo7.png" alt="img" draggable="false"></div>
+          <h2>Sina Oussama</h2>
+          <span>App Designer</span>
+        </li>
+      </ul>
+      <i id="right" class="fa-solid fa-angle-right"></i>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+  <section class="contenue">
+    <div class="tabs">
+      <h3 class="active">Hébergement Web</h3>
+      <h3>E.N.D</h3>
+      <h3>Assistance Technique</h3>
+      <h3>Sécurité Web</h3>
+      <h3>Gestion de Contenu</h3>
+      <h3>Conception Réactive</h3>
+    </div>
+    <div class="tab-content">
+      <div class="active">
+        <h4>Hébergement Web</h4>
+        <p>
+          Chez VALA BLEU, nous sommes spécialisés dans l'hébergement web de qualité. Nous offrons une infrastructure de
+          serveur de premier ordre pour garantir que vos sites web fonctionnent de manière optimale et sont toujours
+          accessibles.
+        </p>
+      </div>
+      <div>
+        <h4>Enregistrement de Noms de Domaine</h4>
+        <p>
+          Notre service d'enregistrement de noms de domaine vous permet de sécuriser l'adresse web parfaite pour votre
+          entreprise. Nous facilitons le processus d'enregistrement et de gestion des noms de domaine.
+        </p>
+      </div>
+      <div>
+        <h4>Assistance Technique</h4>
+        <p>
+          Notre équipe d'assistance technique est disponible 24h/24 et 7j/7 pour répondre à vos besoins. Nous sommes là
+          pour vous aider en cas de problème technique, garantissant une expérience utilisateur fluide.
+        </p>
+      </div>
+      <div>
+        <h4>Sécurité Web</h4>
+        <p>
+          La sécurité web est notre priorité. Nous utilisons les dernières technologies pour protéger vos données et vos
+          sites web contre les menaces en ligne, garantissant ainsi une expérience sécurisée pour vos utilisateurs.
+        </p>
+      </div>
+      <div>
+        <h4>Gestion de Contenu</h4>
+        <p>
+          Simplifiez la gestion de votre site web avec nos solutions de gestion de contenu. Nous offrons des outils
+          conviviaux pour organiser, mettre à jour et publier du contenu en toute simplicité.
+        </p>
+      </div>
+      <div>
+        <h4>Conception Réactive</h4>
+        <p>
+          Notre approche de conception réactive garantit que vos sites web s'affichent correctement sur tous les
+          appareils, offrant ainsi une expérience utilisateur optimale, quelle que soit la plateforme.
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <section id="blog">
+    <!--container---------------->
+    <div class="blog-container">
+      <!--box-1------------->
+      <div class="blog-box">
+        <!--img---->
+        <div class="blog-img">
+          <img src="imgs/blog-1.png" alt="blog">
+        </div>
+        <!--text--->
+        <div class="blog-text">
+          <span>18 juillet 2021 / Actualités de VALA BLEU</span>
+          <a href="#" class="blog-title">VALA BLEU : Une Croissance Exceptionnelle</a>
+          <p>Découvrez comment VALA BLEU a connu une croissance remarquable, devenant l'un des leaders de l'hébergement
+            web et de l'enregistrement de noms de domaine en Europe, en Amérique et en Afrique du Nord.</p>
+          <a href="#">En savoir plus</a>
+        </div>
+      </div>
+      <!--box-2------------->
+      <div class="blog-box">
+        <!--img---->
+        <div class="blog-img">
+          <img src="imgs/blog-2.png" alt="blog">
+        </div>
+        <!--text--->
+        <div class="blog-text">
+          <span>18 juillet 2021 / Actualités de VALA BLEU</span>
+          <a href="#" class="blog-title">La Qualité de Service Chez VALA BLEU</a>
+          <p>Découvrez comment VALA BLEU s'engage à offrir un service d'hébergement web de qualité exceptionnelle, avec
+            une infrastructure de pointe et un support technique 24/7.</p>
+          <a href="#">En savoir plus</a>
+        </div>
+      </div>
+      <!--box-3------------->
+      <div class="blog-box">
+        <!--img---->
+        <div class="blog-img">
+          <img src="imgs/blog-3.png" alt="blog">
+        </div>
+        <!--text--->
+        <div class="blog-text">
+          <span>18 juillet 2021 / Actualités de VALA BLEU</span>
+          <a href="#" class="blog-title">VALA BLEU et la Sécurité Web</a>
+          <p>Découvrez comment VALA BLEU prend la sécurité web au sérieux, en protégeant les données de ses clients et
+            en garantissant une expérience en ligne sûre et fiable.</p>
+          <a href="#">En savoir plus</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+  <section class="champ6">
+    <div class="abdeslam">
+      <div class="table basic">
+        <div class="price-section">
+          <div class="price-area">
+            <div class="inner-area">
+              <span class="text">$</span>
+              <span class="price">29</span>
+            </div>
+          </div>
+        </div>
+        <div class="package-name"></div>
+        <ul class="features">
+          <li>
+            <span class="list-name">One Selected Template</span>
+            <span class="icon check"><i class="fas fa-check"></i></span>
+          </li>
+          <li>
+            <span class="list-name">100% Responsive Design</span>
+            <span class="icon check"><i class="fas fa-check"></i></span>
+          </li>
+          <li>
+            <span class="list-name">Credit Remove Permission</span>
+            <span class="icon cross"><i class="fas fa-times"></i></span>
+          </li>
+          <li>
+            <span class="list-name">Lifetime Template Updates</span>
+            <span class="icon cross"><i class="fas fa-times"></i></span>
+          </li>
+        </ul>
+        <div class="btn5"><button>BOOK NOW</button></div>
+      </div>
+      <div class="table premium">
+        <div class="ribbon"><span>Recommend</span></div>
+        <div class="price-section">
+          <div class="price-area">
+            <div class="inner-area">
+              <span class="text">$</span>
+              <span class="price">59</span>
+            </div>
+          </div>
+        </div>
+        <div class="package-name"></div>
+        <ul class="features">
+          <li>
+            <span class="list-name">Five Existing Templates</span>
+            <span class="icon check"><i class="fas fa-check"></i></span>
+          </li>
+          <li>
+            <span class="list-name">100% Responsive Design</span>
+            <span class="icon check"><i class="fas fa-check"></i></span>
+          </li>
+          <li>
+            <span class="list-name">Credit Remove Permission</span>
+            <span class="icon check"><i class="fas fa-check"></i></span>
+          </li>
+          <li>
+            <span class="list-name">Lifetime Template Updates</span>
+            <span class="icon cross"><i class="fas fa-times"></i></span>
+          </li>
+        </ul>
+        <div class="btn5"><button>BOOK NOW</button></div>
+      </div>
+      <div class="table ultimate">
+        <div class="price-section">
+          <div class="price-area">
+            <div class="inner-area">
+              <span class="text">$</span>
+              <span class="price">99</span>
+            </div>
+          </div>
+        </div>
+        <div class="package-name"></div>
+        <ul class="features">
+          <li>
+            <span class="list-name">All Existing Templates</span>
+            <span class="icon check"><i class="fas fa-check"></i></span>
+          </li>
+          <li>
+            <span class="list-name">100% Responsive Design</span>
+            <span class="icon check"><i class="fas fa-check"></i></span>
+          </li>
+          <li>
+            <span class="list-name">Credit Remove Permission</span>
+            <span class="icon check"><i class="fas fa-check"></i></span>
+          </li>
+          <li>
+            <span class="list-name">Lifetime Template Updates</span>
+            <span class="icon check"><i class="fas fa-check"></i></span>
+          </li>
+        </ul>
+        <div class="btn5"><button>BOOK NOW</button></div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+  <section class="abd">
+    <div class="right-content">
+      <video class="video" controls width="640" height="360">
+        <source src="vds/pexels-artem-podrez-5726497 (2160p).mp4" type="video/mp4">
+        Votre navigateur ne supporte pas la lecture de vidéos au format MP4.
+      </video>
+    </div>
+
+    <div class="accordion">
+      <div class="accordion-content">
+        <header>
+          <span class="title">À PROPOS DE VALA BLEU</span>
+          <i class="fa-solid fa-plus"></i>
+        </header>
+
+        <p class="description">
+          VALA BLEU est une entreprise leader dans l'hébergement web et l'enregistrement de noms de domaine. Notre
+          expertise en infrastructure serveur et notre engagement envers la sécurité des données font de nous le choix
+          idéal pour vos besoins en ligne.
+        </p>
+      </div>
+
+      <div class="accordion-content">
+        <header>
+          <span class="title">SERVICES PRINCIPAUX</span>
+          <i class="fa-solid fa-plus"></i>
+        </header>
+
+        <p class="description">
+          Nos services principaux comprennent l'hébergement web de qualité, l'enregistrement de noms de domaine et une
+          assistance technique dévouée. Nous nous efforçons de rendre votre expérience en ligne aussi fluide et
+          sécurisée que possible.
+        </p>
+      </div>
+
+      <div class="accordion-content">
+        <header>
+          <span class="title">ENGAGEMENT ENVERS LA SÉCURITÉ</span>
+          <i class="fa-solid fa-plus"></i>
+        </header>
+
+        <p class="description">
+          La sécurité web est au cœur de notre entreprise. Nous utilisons des technologies avancées pour protéger vos
+          données et vos sites web contre les menaces en ligne. Votre confiance est notre priorité absolue.
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+  <footer class="footer">
+    <div class="containers">
+      <div class="row">
+        <div class="footer-col">
+          <h4>company</h4>
+          <ul>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">our services</a></li>
+            <li><a href="#">privacy policy</a></li>
+            <li><a href="#">affiliate program</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>get help</h4>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">shipping</a></li>
+            <li><a href="#">returns</a></li>
+            <li><a href="#">order status</a></li>
+            <li><a href="#">payment options</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>online shop</h4>
+          <ul>
+            <li><a href="#">watch</a></li>
+            <li><a href="#">bag</a></li>
+            <li><a href="#">shoes</a></li>
+            <li><a href="#">dress</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>follow us</h4>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
